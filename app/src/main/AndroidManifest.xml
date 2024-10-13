@@ -13,6 +13,30 @@
         android:theme="@style/Theme.CancerPrediction"
         tools:targetApi="31">
         <activity
+            android:name=".progressionofOsmertinib"
+            android:exported="false" />
+        <activity
+            android:name=".resistanceMutations"
+            android:exported="false" />
+        <activity
+            android:name=".firstLineTherapies"
+            android:exported="false" />
+        <activity
+            android:name=".listofMutation"
+            android:exported="false" />
+        <activity
+            android:name=".panelofGenes1"
+            android:exported="false" />
+        <activity
+            android:name=".histologicSubtype"
+            android:exported="false" />
+        <activity
+            android:name=".clinicalSymptom"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
