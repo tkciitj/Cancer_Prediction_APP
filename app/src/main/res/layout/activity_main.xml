@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/REGISTER"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="@color/black"
+        android:foregroundTint="@color/black"
+        android:onClick="onImageClick"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/editbox_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/black"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="179dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/chela_one"
+        android:foregroundTint="@color/white"
+        android:foregroundTintMode="add"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="31.5sp"
+        app:layout_constraintBottom_toBottomOf="@+id/REGISTER"
+        app:layout_constraintEnd_toEndOf="@+id/REGISTER"
+        app:layout_constraintStart_toStartOf="@+id/REGISTER"
+        app:layout_constraintTop_toTopOf="@+id/REGISTER"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/LOGIN"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="-250dp"
+        android:background="@drawable/button_background"
+        android:onClick="onImageClick"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/editbox_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/REGISTER"
+        app:layout_constraintVertical_bias="0.496"
+        app:tint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="179dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/chela_one"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="31.5sp"
+        app:layout_constraintBottom_toBottomOf="@+id/LOGIN"
+        app:layout_constraintEnd_toEndOf="@+id/LOGIN"
+        app:layout_constraintStart_toStartOf="@+id/LOGIN"
+        app:layout_constraintTop_toTopOf="@+id/LOGIN"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

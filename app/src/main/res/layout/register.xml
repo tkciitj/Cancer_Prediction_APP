@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="-500dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/baloo_chettan"
+        android:foregroundTint="@color/black"
+        android:shadowColor="@color/black"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="312dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="-400dp"
+        android:ems="10"
+        android:fontFamily="@font/anonymous_pro_bold_italic"
+        android:inputType="text"
+        android:text="@string/first_name"
+        android:textAlignment="viewStart"
+        android:textColor="#4D000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="LabelFor,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="312dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="-380dp"
+        android:ems="10"
+        android:fontFamily="@font/anonymous_pro_bold_italic"
+        android:inputType="text"
+        android:text="Last Name"
+        android:textColor="#4D000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="312dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="-305dp"
+        android:ems="10"
+        android:fontFamily="@font/anonymous_pro_bold_italic"
+        android:hint="example@gmail.com"
+        android:inputType="textEmailAddress"
+        android:textColor="#2D000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="312dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="-230dp"
+        android:ems="10"
+        android:fontFamily="@font/anonymous_pro_bold_italic"
+        android:hint="Set Password(num)"
+        android:inputType="numberPassword"
+        android:textColor="#4D000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/button_background"
+        android:padding="10dp"
+        android:backgroundTint="@color/black"
+        android:foregroundTint="@color/black"
+        android:onClick="Register"
+        android:src="@android:drawable/editbox_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862"
+        app:tint="@color/black"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/baloo_chettan"
+        android:foregroundTint="@color/black"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

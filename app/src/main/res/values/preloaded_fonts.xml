@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/akronim</item>
+        <item>@font/anonymous_pro_bold_italic</item>
+        <item>@font/anton</item>
+        <item>@font/antonio_semibold</item>
+        <item>@font/baloo_chettan</item>
+        <item>@font/bungee_spice</item>
+        <item>@font/chela_one</item>
+    </array>
+</resources>
