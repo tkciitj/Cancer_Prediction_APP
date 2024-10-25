@@ -10,6 +10,58 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:theme="@style/Theme.CancerPrediction"
+        tools:targetApi="31">
+        <activity
+            android:name=".progressionofOsmertinib"
+            android:exported="false" />
+        <activity
+            android:name=".resistanceMutations"
+            android:exported="false" />
+        <activity
+            android:name=".firstLineTherapies"
+            android:exported="false" />
+        <activity
+            android:name=".listofMutation"
+            android:exported="false" />
+        <activity
+            android:name=".panelofGenes1"
+            android:exported="false" />
+        <activity
+            android:name=".histologicSubtype"
+            android:exported="false" />
+        <activity
+            android:name=".clinicalSymptom"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.CancerPrediction">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">  <!-- Use an AppCompat theme -->
 
         <activity
