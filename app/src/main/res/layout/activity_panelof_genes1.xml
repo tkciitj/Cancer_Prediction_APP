@@ -107,7 +107,7 @@
                 android:layout_weight="8"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="EGFR mutation (category 1)"
+                android:text="EGFR mutation (category 1)"
                 />
 
             <ImageView
