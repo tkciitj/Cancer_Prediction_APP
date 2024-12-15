@@ -39,7 +39,6 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -55,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
-        android:text="○ Nodules <6 mm require no follow-up."
+        android:text="○ Nodules &lt;6 mm require no follow-up."
         android:textSize="16dp"
         android:textColor="@color/black" />
 
@@ -67,9 +66,6 @@
         android:text="○ Nodules ≥6 mm require initial CT at 6–12 months and long-term follow-up every 2 years for 5 years if stable."
         android:textSize="16dp"
         android:textColor="@color/black" />
-
-
-
 
     <Button
         android:layout_width="match_parent"

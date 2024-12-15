@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
-        android:text="○ Nodules <6 mm require no follow-up."
+        android:text="○ Nodules &lt;6 mm require no follow-up."
         android:textSize="16dp"
         android:textColor="@color/black" />
 

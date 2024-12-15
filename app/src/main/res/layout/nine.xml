@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
-        android:text="1. For high-risk patients with nodules <6 mm:"
+        android:text="1. For high-risk patients with nodules &lt;6 mm:"
         android:textSize="16dp"
         android:textColor="@color/black" />
     <TextView
@@ -111,7 +111,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginStart="40dp"
-        android:text="3. For high-risk patients with nodules >8 mm:"
+        android:text="3. For high-risk patients with nodules &gt;8 mm:"
         android:textSize="16dp"
         android:textColor="@color/black" />
     <TextView
@@ -139,8 +139,6 @@
         android:textSize="16dp"
         android:textColor="@color/black" />
 
-
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -151,5 +149,4 @@
         android:background="@color/black"
         android:textColor="@color/white"
         android:layout_gravity="center_horizontal" />
-
 </LinearLayout>
