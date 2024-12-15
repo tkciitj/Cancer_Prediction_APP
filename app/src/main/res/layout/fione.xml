@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="● FDG-PET/CT Scan Evaluation"
+        android:text="● Evidence of Nodal Disease"
         android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="5. Was an FDG-PET/CT scan performed?"
+        android:text="Is there evidence of nodal disease?"
         android:textSize="16dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -68,17 +68,18 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes → Proceed to the next question."
-            android:textSize="16dp"
-            android:textColor="@color/black" />
+            android:text="Yes (N1 or N2 disease) → Then proceed with the guidelines given for Stage IIB, Stage IIIA/IIIB, or Stage IIIB/IIIC."
+            android:textColor="@color/black"
+            android:textSize="16dp" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No → Perform FDG-PET/CT scan."
+            android:text="No Nodal Disease → Proceed to the next page."
             android:textSize="16dp"
             android:textColor="@color/black" />
     </RadioGroup>
+
 
     <Button
         android:layout_width="match_parent"

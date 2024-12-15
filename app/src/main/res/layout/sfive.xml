@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="● FDG-PET/CT Scan Evaluation"
+        android:text="● Surveillance: Smoking Cessation"
         android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="5. Was an FDG-PET/CT scan performed?"
+        android:text="5. Has the patient been advised on smoking cessation, including counseling and medications?"
         android:textSize="16dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -68,14 +68,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes → Proceed to the next question."
+            android:text="Yes → Continue reinforcing cessation strategies as part of survivorship care."
             android:textSize="16dp"
             android:textColor="@color/black" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No → Perform FDG-PET/CT scan."
+            android:text="No → Provide smoking cessation support, including advice, counseling, and pharmacotherapy."
             android:textSize="16dp"
             android:textColor="@color/black" />
     </RadioGroup>

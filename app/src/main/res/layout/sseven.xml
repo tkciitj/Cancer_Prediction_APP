@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="● FDG-PET/CT Scan Evaluation"
+        android:text="● Cancer Survivorship Care Program"
         android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="5. Was an FDG-PET/CT scan performed?"
+        android:text="7. Has the patient been enrolled in a cancer survivorship care program?"
         android:textSize="16dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -68,14 +68,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes → Proceed to the next question."
+            android:text="Yes → Ensure compliance with survivorship recommendations."
             android:textSize="16dp"
             android:textColor="@color/black" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No → Perform FDG-PET/CT scan."
+            android:text="No → Enroll the patient in survivorship care for comprehensive follow-up."
             android:textSize="16dp"
             android:textColor="@color/black" />
     </RadioGroup>

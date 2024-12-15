@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="● FDG-PET/CT Scan Evaluation"
+        android:text="● Surveillance: Imaging Abnormalities"
         android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="5. Was an FDG-PET/CT scan performed?"
+        android:text="4. Are there any new or persistent abnormalities in imaging?"
         android:textSize="16dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -68,17 +68,19 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes → Proceed to the next question."
+            android:text="Yes → Increase imaging frequency and investigate further."
             android:textSize="16dp"
             android:textColor="@color/black" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No → Perform FDG-PET/CT scan."
+            android:text="No → Continue the routine surveillance schedule."
             android:textSize="16dp"
             android:textColor="@color/black" />
     </RadioGroup>
+
+
 
     <Button
         android:layout_width="match_parent"

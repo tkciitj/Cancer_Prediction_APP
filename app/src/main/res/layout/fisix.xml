@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="● FDG-PET/CT Scan Evaluation"
+        android:text="● Stage IIA with Negative Margins (R0)"
         android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="5. Was an FDG-PET/CT scan performed?"
+        android:text="4. Is the tumor Stage IIA with negative margins (R0)?"
         android:textSize="16dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -68,17 +68,18 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes → Proceed to the next question."
+            android:text="Yes → Option 1: Observe. Option 2: Administer adjuvant systemic therapy."
             android:textSize="16dp"
             android:textColor="@color/black" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No → Perform FDG-PET/CT scan."
+            android:text="No → Reassess margins or proceed to systemic and radiotherapy options."
             android:textSize="16dp"
             android:textColor="@color/black" />
     </RadioGroup>
+
 
     <Button
         android:layout_width="match_parent"

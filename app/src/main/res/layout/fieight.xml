@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="● FDG-PET/CT Scan Evaluation"
+        android:text="● Stage IIIA"
         android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="5. Was an FDG-PET/CT scan performed?"
+        android:text="6. Is the tumor Stage IIIA (T1–T3, N1–N2)?"
         android:textSize="16dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -68,17 +68,32 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes → Proceed to the next question."
+            android:text="Yes → Margins negative (R0): Administer adjuvant systemic therapy or sequential chemotherapy with RT."
             android:textSize="16dp"
             android:textColor="@color/black" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No → Perform FDG-PET/CT scan."
+            android:text="Yes → Margins positive (R1): Recommend chemoradiation (sequential or concurrent)."
+            android:textSize="16dp"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes → Margins grossly positive (R2): Administer concurrent chemoradiation."
+            android:textSize="16dp"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No → Reassess for proper staging."
             android:textSize="16dp"
             android:textColor="@color/black" />
     </RadioGroup>
+
 
     <Button
         android:layout_width="match_parent"

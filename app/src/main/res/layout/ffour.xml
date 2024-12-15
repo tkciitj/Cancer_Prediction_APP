@@ -66,6 +66,8 @@
         android:text="Follow the guidelines of Stage IIIA/IIIB
 
 
+
+
          or Stage IIIB/IIIC."
         android:textSize="16dp"
         android:textColor="@color/black" />

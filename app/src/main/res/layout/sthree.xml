@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="● FDG-PET/CT Scan Evaluation"
+        android:text="● Surveillance: Radiotherapy Treatment"
         android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
-        android:text="5. Was an FDG-PET/CT scan performed?"
+        android:text="3. Was the patient treated with radiotherapy (RT) for Stage I–II, or did they receive definitive treatment for Stage III or oligometastatic Stage IV disease?"
         android:textSize="16dp"
         android:textStyle="bold"
         android:textColor="@color/black" />
@@ -68,14 +68,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yes → Proceed to the next question."
+            android:text="Yes → Conduct HP and chest CT with contrast every 3–6 months for 3 years. Then continue HP and chest CT every 6 months for the next 2 years. Afterward, switch to annual HP and low-dose non-contrast chest CT."
             android:textSize="16dp"
             android:textColor="@color/black" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No → Perform FDG-PET/CT scan."
+            android:text="No → Ensure the follow-up is tailored to the treatment provided."
             android:textSize="16dp"
             android:textColor="@color/black" />
     </RadioGroup>
