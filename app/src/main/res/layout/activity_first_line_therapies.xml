@@ -27,7 +27,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:text="APP NAME"
+                android:text="C_Diag App"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:textSize="20dp"
