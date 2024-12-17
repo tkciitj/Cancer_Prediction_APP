@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getLayoutResourceId(screenIndex: Int): Int {
         return when (screenIndex) {
-            1 -> R.layout.activity_home
+            1 -> R.layout.one
             2 -> R.layout.two
             3 -> R.layout.three
             4 -> R.layout.four
@@ -148,6 +148,39 @@ class MainActivity : AppCompatActivity() {
     }
 
     //can use a hashmap to define the next button logic like 1 to 2 2 to 5 kinda shit @Arman
+    //for eg-
+//    private val navigationMap = hashMapOf(
+//        1 to 2,   // Screen 1 -> Screen 2
+//        2 to 5,   // Screen 2 -> Screen 5
+//        5 to 10,  // Screen 5 -> Screen 10
+//        10 to 11, // Screen 10 -> Screen 11
+//        11 to 12, // Continue for other mappings
+//        90 to -1  // Screen 90: End of navigation
+//    )
+//    // Logic to go to the next screen based on custom navigation map
+//    fun goToNextScreen() {
+//        val nextScreen = navigationMap[currentScreenIndex]
+//        if (nextScreen != null && nextScreen != -1) {
+//            currentScreenIndex = nextScreen
+//            loadFragment(currentScreenIndex)
+//        } else {
+//            // End of screens: you can handle it here
+//            println("No further screens available.")
+//        }
+//    }
+//
+//    // Logic to go to the previous screen linearly
+//    fun goToPreviousScreen() {
+//        // Find the previous screen in reverse order
+//        val previousScreen = navigationMap.entries.find { it.value == currentScreenIndex }?.key
+//        if (previousScreen != null) {
+//            currentScreenIndex = previousScreen
+//            loadFragment(currentScreenIndex)
+//        }
+//    }
+    ///use the above example to understand
+
+
     //implement required ordering nav
     fun goToNextScreen() {
         if (currentScreenIndex < TOTAL_SCREENS) {
@@ -156,9 +189,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    //see to go to next we have next button for previous pg we can use back button beside next as that top left back is an image for
-    // now but we can convert it into a button also-decide whats best
-
+    //see to go to next we have next button for previous pg we can use back button beside next
     fun goToPreviousScreen() {
         if (currentScreenIndex > 1) {
             currentScreenIndex--
