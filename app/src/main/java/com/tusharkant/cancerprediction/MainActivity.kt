@@ -156,6 +156,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //see to go to next we have next button for previous pg we can use back button beside next as that top left back is an image for
+    // now but we can convert it into a button also-decide whats best
+
     fun goToPreviousScreen() {
         if (currentScreenIndex > 1) {
             currentScreenIndex--
